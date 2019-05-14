@@ -4,4 +4,6 @@
 * MVP: App displays username, commit history, most common day of week and hour of day ...
 
 
-## Developers: Matt Thomas and Zac Smith
+## Developers: 
+* Matt Thomas 
+* Zac Smith
