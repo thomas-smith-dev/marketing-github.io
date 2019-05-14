@@ -7,3 +7,5 @@
 ## Developers: 
 * Matt Thomas 
 * Zac Smith
+## Project Manager:
+* Ronald Cho
