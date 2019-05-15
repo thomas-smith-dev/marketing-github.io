@@ -126,9 +126,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+<<<<<<< HEAD
 .headerNavigation {
   background: black;
 }
 html {
   background: red;
+=======
+.contact-form {
+  display: block;
+  background-color: red;
+>>>>>>> f24e345f73bb10cb1ded40fe99852536d9fdf67f
 }
