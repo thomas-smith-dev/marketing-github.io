@@ -126,15 +126,33 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-<<<<<<< HEAD
 .headerNavigation {
-  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-html {
-  background: red;
-=======
+.headerNavigation .header {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1%;
+  padding: 0.5% 0;
+}
+.headerNavigation .header img {
+  width: 50px;
+  height: 50px;
+}
+.headerNavigation .header h2 {
+  padding-left: 1%;
+  font-size: 1.6rem;
+}
+.headerNavigation .searchBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .contact-form {
   display: block;
   background-color: red;
->>>>>>> f24e345f73bb10cb1ded40fe99852536d9fdf67f
 }
