@@ -159,6 +159,9 @@ table {
   width: 200px;
   height: 15px;
 }
+footer {
+  font-family: 'Cabin', sans-serif;
+}
 @font-face {
   font-family: 'Cabin';
   font-style: normal;
