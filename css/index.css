@@ -225,8 +225,9 @@ body {
 }
 .video-container .search-container .search-box h1 {
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
+  padding-bottom: 15px;
 }
 .video-container .search-container .search-box .search-btn {
   display: flex;
@@ -234,10 +235,17 @@ body {
 }
 .video-container .search-container .search-box .search-btn input {
   height: 30px;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.video-container .search-container .search-box .search-btn input::placeholder {
+  color: gray;
+  font-size: 1rem;
+  padding: 10px 0 0 10px;
 }
 .video-container .search-container .search-box .search-btn button {
   height: 35px;
-  margin-top: 5px;
+  margin-top: 15px;
   font-family: 'Cabin', sans-serif;
   font-size: 1.4rem;
 }
@@ -245,6 +253,7 @@ body {
   color: #FFFFFF;
   font-size: 1.5rem;
   text-align: center;
+  padding-top: 15px;
 }
 .video-container .overlay-footer {
   position: absolute;
