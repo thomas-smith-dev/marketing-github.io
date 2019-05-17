@@ -10,6 +10,14 @@ html, body {
         height: 100%;
         position: absolute;
         margin-top: 0;
+
+        video {
+            height: 100%;
+            width: 100%;
+            background: pink;
+            // padding: 0;
+            // margin: 0;
+        }
     }
     .search-container {
         width: 100%;
@@ -53,6 +61,39 @@ html, body {
                 text-align: center;
             }
         }
+    }
+    .overlay-footer {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        color: @white;
+        background: red;
+
+        .index-footer-content {
+            display: flex;
+            flex-direction: column;
+            font-family: @font-cabin;
+
+            .index-footer-content-list {
+                padding-top: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .index-footer-content-item {
+                    display: flex;
+                    font-size: 1.6rem;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+            .copyright {
+                display: none;
+            }
+        }
+
     }
 
 }
