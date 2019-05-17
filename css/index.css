@@ -204,8 +204,6 @@ body {
   margin-top: 0;
 }
 .video-container .video-wrapper video {
-  height: 100%;
-  width: 100%;
   background: pink;
 }
 .video-container .search-container {
