@@ -203,9 +203,6 @@ body {
   position: absolute;
   margin-top: 0;
 }
-.video-container .video-wrapper video {
-  background: pink;
-}
 .video-container .search-container {
   width: 100%;
   height: 100%;
@@ -260,7 +257,6 @@ body {
   bottom: 0%;
   width: 100%;
   color: #FFFFFF;
-  background: red;
 }
 .video-container .overlay-footer .index-footer-content {
   display: flex;
@@ -279,6 +275,14 @@ body {
 }
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item a {
   text-decoration: none;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+.video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item a:hover {
+  font-size: 1.7rem;
+}
+.video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item a:visited {
+  color: #FFFFFF;
 }
 .video-container .overlay-footer .index-footer-content .copyright {
   display: none;
