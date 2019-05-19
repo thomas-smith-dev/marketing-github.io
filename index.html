@@ -22,10 +22,11 @@
             <div class="search-box">
                 <h1>Github User Search</h1>
                 <div class="search-btn">
-                    <input type="text">
-                    <button>Search Github</button>
+                    <input id="userSearch" type="text" required minlength="4" maxlength="39" size="15" placeholder="Github User Name"> 
+                    <button onclick="githubUserInput()">Search Github</button>
                 </div>
-                <p>Do you need help?</p>
+                <p #help-popup>Do you need help?</p>
+
             </div>
         </div>
         <div class='overlay-footer'>
@@ -37,6 +38,6 @@
             </footer>
         </div>
     </div>
-
+    <script src="js/search.js"></script>
 </body>
 </html>
