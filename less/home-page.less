@@ -10,19 +10,13 @@ html, body {
 
 .video-container {
     .video-wrapper {
-        // width: 100%;
-        // height: 100%;
-        position: absolute;
+        position: fixed;
         margin-top: 0;
         margin-bottom: 0;
         
 
         video {
-            // height: 100%;
-            // width: 100%;
-            // background: pink;
-            // padding: 0;
-            // margin: 0;
+
         }
     }
     .search-container {
@@ -30,8 +24,6 @@ html, body {
         height: 100%;
         position: absolute;
         margin-top: 0;
-        // display: flex;
-        // flex-direction: column;
         
         .search-box {
             width: 400px;
@@ -81,19 +73,14 @@ html, body {
         position: fixed;
         width: 100%;
         color: @white;
-        // background: red;
+        position: absolute;
+        bottom: 0;
 
         .index-footer-content {
-            // top: 1000px;
             display: flex;
             flex-direction: column;
             font-family: @font-cabin;
             
-            // position: absolute;
-            // bottom: 0px;
-            // background-position: 50% 50%;
-            
-
             .index-footer-content-list {
                 padding-top: 0;
                 display: flex;
@@ -105,17 +92,26 @@ html, body {
                     font-size: 1.6rem;
                     padding-bottom: 2%;
 
+                    :visited {
+                        color: @white;
+                    }
+
+                    :hover {
+                        color: lightsalmon;
+                        font-size: 1.7rem;
+                    }
+
                     a {
                         text-decoration: none;
                         color: @white;
                         padding-bottom: 5px;
                     }
-                    a:hover {
-                        font-size: 1.7rem;
-                    }
-                    a:visited {
-                        color: @white;
-                    }
+                    // a:hover {
+                    //     font-size: 1.7rem;
+                    // }
+                    // a:visited {
+                    //     color: @white;
+                    // }
                 }
             }
             .copyright {
