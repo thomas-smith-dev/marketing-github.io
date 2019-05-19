@@ -386,7 +386,7 @@ body {
   justify-content: space-between;
 }
 .container.about .developer .devInfo .user-name {
-  font-style: italic;
+  color: red;
 }
 .container.about .developer .devBio {
   width: 100%;
