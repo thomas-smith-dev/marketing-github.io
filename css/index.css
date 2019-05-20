@@ -387,9 +387,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .video-container .container.about .developer .devInfo .user-name {
-  font-style: italic;
+  color: red;
 }
+
 .video-container .container.about .developer .devBio {
   width: 100%;
   padding: 15px;
