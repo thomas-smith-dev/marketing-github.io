@@ -43,7 +43,7 @@ const showResults = () => {
         user.innerHTML = `User: <span>${results.data.login}</span>`;
         company.innerHTML = `Company: <span>${results.data.company}</span>`;
         repos.innerHTML = `Repos: <span>${results.data.public_repos}</span>`;
-        url.innerHTML = `URL: <a href="${results.data.html_url}" target="_blank"><span>${results.data.html_url}</span></a>`;
+        url.innerHTML = `URL: <a class="url" href="${results.data.html_url}" target="_blank"><span>${results.data.html_url}</span></a>`;
     });
 };
 
