@@ -405,6 +405,7 @@ body {
   background-color: #e8e8e8;
   margin: 0 auto;
   display: flex;
+  position: relative;
 }
 .search-results .user-data {
   display: flex;
@@ -424,11 +425,15 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 .search-again p {
   font-size: 1.4rem;
   margin: 40px 0;
   text-align: center;
+}
+.footer-content.index {
+  position: relative;
 }
 @font-face {
   font-family: 'Cabin';
