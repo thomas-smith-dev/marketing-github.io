@@ -323,6 +323,19 @@ body {
   text-decoration: none;
   font-size: 1.2rem;
 }
+.container .signup,
+.container .login {
+  text-align: center;
+  padding-top: 35px;
+}
+.container .signup :hover,
+.container .login :hover {
+  color: seagreen;
+}
+.container .signup a,
+.container .login a {
+  color: lightseagreen;
+}
 .contact-form {
   max-width: 600px;
   width: 100%;
