@@ -402,6 +402,7 @@ body {
 .search-results {
   max-width: 800px;
   width: 100%;
+  background-color: #e8e8e8;
   margin: 0 auto;
   display: flex;
 }
@@ -409,10 +410,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 20px;
 }
 .search-results .avatar img {
   width: 300px;
   height: 300px;
+  margin: 20px;
 }
 .search-results p {
   font-size: 1.5rem;
@@ -421,6 +424,11 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+}
+.search-again p {
+  font-size: 1.4rem;
+  margin: 40px 0;
+  text-align: center;
 }
 @font-face {
   font-family: 'Cabin';
