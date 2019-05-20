@@ -97,17 +97,20 @@ html, body {
                     display: flex;
                     font-size: 1.6rem;
 
+                    :visited {
+                        color: @white;
+                    }
+                    :hover {
+                        color: lightsalmon;
+                        font-size: 1.7rem;
+                    }
+
                     a {
                         text-decoration: none;
                         color: @white;
                         padding-bottom: 5px;
                     }
-                    a:hover {
-                        font-size: 1.7rem;
-                    }
-                    a:visited {
-                        color: @white;
-                    }
+                    
                 }
             }
             .copyright {
