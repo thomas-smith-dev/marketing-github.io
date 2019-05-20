@@ -8,6 +8,14 @@ html, body {
     height: 100%;
 }
 
+a.url:hover {
+    color: seagreen;
+}
+a.url {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
 .video-container {
     .video-wrapper {
         width: 100%;
@@ -144,19 +152,23 @@ html, body {
         padding: 5px 0;
         line-height: 1.5;
     }
-    :hover {
-        color: seagreen;
-    }
     a {
         text-decoration: none;
         font-size: 1.2rem;
-        color: lightseagreen;
     }
     .signup, .login {
         text-align: center;
         padding-top: 35px;
+        :hover {
+            color: seagreen;
+        }
+        a {
+            color: lightseagreen;
+        }
     }
 }
+
+
 
 
 // Contact page
