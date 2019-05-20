@@ -455,3 +455,37 @@ body {
   font-weight: 400;
   src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
 }
+.video-container .search-container .popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 750px;
+  height: 350px;
+  overflow: auto;
+  /* Enable scroll if needed */
+}
+.video-container .search-container .popup p {
+  color: black;
+}
+.video-container .search-container .popup-content {
+  background: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.video-container .search-container .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.video-container .search-container .close :hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
