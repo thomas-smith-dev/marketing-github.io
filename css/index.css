@@ -393,6 +393,56 @@ body {
   width: 100%;
   padding: 15px;
 }
+.show {
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
+}
+.search-results {
+  max-width: 800px;
+  width: 100%;
+  background-color: #e8e8e8;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.search-results .user-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.search-results .avatar img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+.search-results p {
+  font-size: 1.5rem;
+}
+.search-again {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.search-again p {
+  font-size: 1.4rem;
+  margin: 40px 0;
+}
+.search-again button {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.3rem;
+  background-color: green;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+.footer-content.index {
+  position: relative;
+}
 @font-face {
   font-family: 'Cabin';
   font-style: normal;
