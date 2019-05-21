@@ -39,10 +39,10 @@
                 <input name="email" type="email" placeholder="Type email here" required>
                 
                 <label>Password (8 characters minimum)</label>
-                <input name="passwd" type="password" placeholder="Type password here" required>
+                <input name="passwd" type="password" placeholder="Type password here" pattern=".{8,}" required>
                                                   
                 <label>Confirm Password (passwords must be identical)</label>
-                <input name="conf-passwd" type="password" placeholder="Confirm password here" required>
+                <input name="conf-passwd" type="password" placeholder="Confirm password here" pattern=".{8,}" required>
 
                 <input type="checkbox" name="free_account" value="free" checked required>Join for FREE!<br>
                 <input type="checkbox" name="annual_account" value="annual">I am interested in the annual account!<br>
