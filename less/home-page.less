@@ -29,6 +29,10 @@ a.url {
             // background: pink;
             // padding: 0;
             // margin: 0;
+
+            @media @phone {
+                display: none;
+            }
         }
     }
     .search-container {
@@ -49,11 +53,16 @@ a.url {
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
+
             h1 {
                 color: @white;
                 font-size: 3rem;
                 text-align: center;
                 padding-bottom: 15px;
+
+                @media @phone {
+                    color: black;
+                }
             }
             .search-btn {
                 display: flex;
@@ -80,6 +89,10 @@ a.url {
                 font-size: 1.5rem;
                 text-align: center;
                 padding-top: 15px;
+
+                @media @phone {
+                    color: black;
+                }
             }
         }
     }
@@ -113,6 +126,7 @@ a.url {
                         font-size: 1.7rem;
                     }
 
+
                     a {
                         text-decoration: none;
                         color: @white;
@@ -138,10 +152,12 @@ a.url {
     min-height: 80%;
     margin: 0 auto;
     padding: 20px 0;
+
     h1 {
         font-size: 1.5rem;
         padding: 10px 0;
     }
+
     h3 {
         font-size: 1.3rem;
         padding: 10px 0;
