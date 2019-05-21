@@ -22,4 +22,5 @@ window.addEventListener('click', () => {
     if (event.target == popup) {
         popup.style.display = 'none';
     }
-})
+});
+
