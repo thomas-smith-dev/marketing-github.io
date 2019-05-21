@@ -33,18 +33,18 @@
             <form>
             
                 <label>User</label>
-                <input name="user" type="text" placeholder="Type user name here">
+                <input name="user" type="text" placeholder="Type user name here" required>
                 
                 <label>Email</label>
-                <input name="email" type="email" placeholder="Type email here">
+                <input name="email" type="email" placeholder="Type email here" required>
                 
                 <label>Password (8 characters minimum)</label>
-                <input name="passwd" type="password" placeholder="Type password here">
+                <input name="passwd" type="password" placeholder="Type password here" required>
                                                   
                 <label>Confirm Password (passwords must be identical)</label>
-                <input name="conf-passwd" type="password" placeholder="Confirm password here">
+                <input name="conf-passwd" type="password" placeholder="Confirm password here" required>
 
-                <input type="checkbox" name="free_account" value="free" checked>Join for FREE!<br>
+                <input type="checkbox" name="free_account" value="free" checked required>Join for FREE!<br>
                 <input type="checkbox" name="annual_account" value="annual">I am interested in the annual account!<br>
 
                 <input id="submit" name="submit" type="submit" onClick="parent.location='#'" value="Submit">

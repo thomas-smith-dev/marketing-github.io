@@ -23,12 +23,11 @@ const getUsers = async (user) => {
 
     const data = await api_call.json();
 
-    return { data: data};
+    return { data: data };
 };
 
 const showResults = () => {
     getUsers(userInput.value).then((results) => {
-        // console.log(results);
         videoContainer.classList.add('hide');
         videoContainer.classList.remove('show');
         searchResults.classList.add('show');
