@@ -246,6 +246,7 @@ a.url {
 @media (max-width: 500px) {
   .video-container .video-wrapper {
     background: #F3EDED;
+    margin: 0 auto;
   }
 }
 @media (max-width: 500px) {
@@ -353,6 +354,7 @@ a.url {
 }
 @media (max-width: 500px) {
   .video-container .overlay-footer .index-footer-content .index-footer-content-list {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -360,6 +362,7 @@ a.url {
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item {
   display: flex;
   font-size: 1.6rem;
+  align-content: center;
 }
 @media (max-width: 500px) {
   .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item {
@@ -381,6 +384,11 @@ a.url {
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item :hover {
   color: lightsalmon;
   font-size: 1.7rem;
+}
+@media (max-width: 500px) {
+  .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item :hover {
+    color: lightsalmon;
+  }
 }
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item a {
   text-decoration: none;
@@ -473,10 +481,32 @@ a.url {
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 600px) and (max-width: 500px) {
+  .container.about {
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 600px) and (max-width: 600px) {
+  .container.about {
+    justify-content: space-around;
+  }
+}
 .container.about .developer {
   width: 48%;
   background-color: #e8e8e8;
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .container.about .developer {
+    width: 100%;
+    margin: 2% 0;
+  }
+}
+@media (max-width: 600px) {
+  .container.about .developer {
+    width: 100%;
+    margin: 2% 0;
+  }
 }
 .container.about .developer .avatar {
   height: 300px;

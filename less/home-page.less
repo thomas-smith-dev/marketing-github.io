@@ -24,6 +24,7 @@ a.url {
         margin-top: 0;
         @media @phone {
             background: #F3EDED;
+            margin: 0 auto;
         }
 
         video {
@@ -127,6 +128,7 @@ a.url {
 
             @media @phone {
                 color: @black;
+                // display: block;
             }
 
             .index-footer-content-list {
@@ -136,14 +138,17 @@ a.url {
                 justify-content: space-around;
 
                 @media @phone {
+                    width: 100%;
                     display: flex;
                     flex-direction: column;
+                    // display: block;
                     // color: black;
                 }
 
                 .index-footer-content-item {
                     display: flex;
                     font-size: 1.6rem;
+                    align-content: center;
 
                     @media @phone {
                         display: block;
@@ -164,6 +169,10 @@ a.url {
                     :hover {
                         color: lightsalmon;
                         font-size: 1.7rem;
+
+                        @media @phone {
+                            color: lightsalmon;
+                        }
                     }
 
 
@@ -174,6 +183,10 @@ a.url {
 
                         @media @phone {
                             color: black;
+                            // text-align: center;
+                            // display: block;
+                            // text-align: center;
+
                         }
                     }
                     
@@ -276,12 +289,27 @@ a.url {
         // .developer {
         //     width: 100%;
         // }
+        @media @phone {
+            justify-content: space-around;
+        }
+        @media @break {
+            justify-content: space-around;
+        }
     }
     
     .developer {
         width: 48%;
         background-color: #e8e8e8;
         border-radius: 5px;
+
+        @media @phone {
+            width: 100%;
+            margin: 2% 0;
+        }
+        @media @break {
+            width: 100%;
+            margin: 2% 0;
+        }
 
         .avatar {
             // background-color: beige;
