@@ -24,3 +24,5 @@ window.addEventListener('click', () => {
     }
 });
 
+// set cursor style to pointer
+document.querySelector('.popup').style.cursor = 'pointer';
