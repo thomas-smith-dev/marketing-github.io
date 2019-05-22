@@ -307,6 +307,7 @@ a.url {
 @media (max-width: 500px) {
   .video-container .search-container .search-box h1 {
     color: #000;
+    font-size: 2.4rem;
   }
   .video-container .search-container .search-box h1 span::before {
     content: '\A';
@@ -596,6 +597,13 @@ a.url {
   margin: 0 auto;
   display: flex;
   position: relative;
+}
+@media (max-width: 500px) {
+  .search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .search-results .user-data {
   display: flex;
