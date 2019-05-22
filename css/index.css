@@ -253,7 +253,7 @@ a.url {
 @media (max-width: 500px) {
   .video-container {
     background: #F3EDED;
-    min-height: 100%;
+    min-height: 100%0;
   }
 }
 .video-container .video-wrapper {
@@ -589,6 +589,7 @@ a.url {
 }
 .hide {
   opacity: 0;
+  display: none;
 }
 .search-results {
   max-width: 800px;
