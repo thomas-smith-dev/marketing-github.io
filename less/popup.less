@@ -9,16 +9,9 @@
             padding-top: 100px; /* Location of the box */
             left: 0;
             top: 0;
-            width: 750px;
+            width: auto;
             height: 350px;
             overflow: auto; /* Enable scroll if needed */
-
-            @media @tablet {
-              // background: black;
-              // width: 500px;
-              // height: 250px;
-              width: 100%;
-            }
 
             p {
                 color: black
@@ -31,8 +24,15 @@
             margin: auto;
             padding: 20px;
             border: 1px solid #888;
-            width: 100%;
+            width: 75%;
             height: auto;
+
+            @media @break2 {
+              // width: 100%;
+            }
+            @media @phone {
+              // width: 50px;
+            }
           }
           
           // close button
