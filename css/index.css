@@ -230,6 +230,12 @@ table {
 * {
   box-sizing: border-box;
 }
+button {
+  cursor: pointer;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
 html,
 body {
   font-family: 'Titillium Web', sans-serif;
