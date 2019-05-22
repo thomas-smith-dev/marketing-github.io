@@ -117,6 +117,9 @@ a.url {
                 text-align: center;
                 padding-top: 15px;
 
+                @media @break2 {
+                    color: @black;
+                }
                 @media @phone {
                     color: @black;
                 }
@@ -173,6 +176,14 @@ a.url {
 
                     :visited {
                         color: @white;
+                        
+                        @media @break3 {
+                            color: @black;
+                        }
+
+                        @media @break2 {
+                            color: @black;
+                        }
 
                         @media @tablet {
                             color: @black;
@@ -196,6 +207,10 @@ a.url {
                         text-decoration: none;
                         color: @white;
                         padding-bottom: 5px;
+
+                        @media @break2 {
+                            color: @black;
+                        }
 
                         @media @tablet {
                             color: @black;
