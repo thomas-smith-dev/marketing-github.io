@@ -500,6 +500,7 @@ a.url {
   width: 100%;
   padding: 0 15px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .container.about .developer .devInfo .user-name {
@@ -559,18 +560,6 @@ a.url {
 .footer-content.index {
   position: relative;
 }
-@font-face {
-  font-family: 'Cabin';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v13/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
-}
 .video-container .search-container .popup {
   display: none;
   position: fixed;
@@ -604,4 +593,16 @@ a.url {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v13/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
 }
