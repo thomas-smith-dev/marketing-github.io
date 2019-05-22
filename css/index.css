@@ -234,6 +234,7 @@ html,
 body {
   font-family: 'Titillium Web', sans-serif;
   height: 100%;
+  margin: 0;
 }
 a.url:hover {
   color: seagreen;
@@ -245,7 +246,7 @@ a.url {
 @media (max-width: 500px) {
   .video-container {
     background: #F3EDED;
-    height: auto;
+    min-height: 100%;
   }
 }
 .video-container .video-wrapper {
@@ -629,6 +630,11 @@ a.url {
   overflow: auto;
   /* Enable scroll if needed */
 }
+@media (max-width: 800px) {
+  .video-container .search-container .popup {
+    width: 100%;
+  }
+}
 .video-container .search-container .popup p {
   color: black;
 }
@@ -637,7 +643,8 @@ a.url {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 100%;
+  height: auto;
 }
 .video-container .search-container .close {
   color: #aaaaaa;

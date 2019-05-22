@@ -6,6 +6,7 @@
 html, body {
     font-family: @font-titillium;
     height: 100%;
+    margin: 0;
 }
 
 a.url:hover {
@@ -19,7 +20,7 @@ a.url {
 .video-container {
     @media @phone {
         background: #F3EDED;
-        height: auto;
+        min-height: 100%;
         // overflow: auto;
     }
 
@@ -365,6 +366,8 @@ a.url {
 .hide {
     opacity: 0;
 }
+
+// SEARCH RESULTS
 
 .search-results {
     max-width: 800px;
