@@ -134,6 +134,13 @@ table {
   font-family: 'Cabin', sans-serif;
   padding: 0.75% 0 0.75%;
 }
+@media (max-width: 600px) {
+  .header-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .header-navigation .header {
   display: flex;
   align-items: center;
@@ -168,12 +175,6 @@ table {
   font-size: 16px;
   height: 26px;
   width: 150px;
-}
-@media (max-width: 500px) {
-  .header-navigation .search-bar button {
-    width: 50%;
-    font-size: 10px;
-  }
 }
 .header-navigation .search-bar button a {
   text-decoration: none;
@@ -306,6 +307,7 @@ a.url {
 @media (max-width: 500px) {
   .video-container .search-container .search-box h1 {
     color: #000;
+    font-size: 2.4rem;
   }
   .video-container .search-container .search-box h1 span::before {
     content: '\A';
@@ -572,6 +574,7 @@ a.url {
   width: 100%;
   padding: 0 15px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .container.about .developer .devInfo .user-name {
@@ -594,6 +597,13 @@ a.url {
   margin: 0 auto;
   display: flex;
   position: relative;
+}
+@media (max-width: 500px) {
+  .search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .search-results .user-data {
   display: flex;
@@ -630,18 +640,6 @@ a.url {
 }
 .footer-content.index {
   position: relative;
-}
-@font-face {
-  font-family: 'Cabin';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v13/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
 }
 .video-container .search-container .popup {
   display: none;
@@ -681,4 +679,16 @@ a.url {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v13/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPecZTIAOhVxoMyOr9n_E7fdMPmCA.ttf) format('truetype');
 }
