@@ -129,6 +129,40 @@ table {
 :root {
   font-size: 62.5%;
 }
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+p {
+  font-size: 2rem;
+}
+a.url:hover {
+  color: seagreen;
+}
+a.url {
+  color: lightseagreen;
+  text-decoration: none;
+}
+a {
+  font-size: 2rem;
+}
+button {
+  cursor: pointer;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
 .header-navigation {
   width: 100%;
   display: flex;
@@ -158,7 +192,6 @@ table {
 .header-navigation .header h2 {
   white-space: nowrap;
   padding-left: 6%;
-  font-size: 1.2rem;
   color: #FFFFFF;
 }
 .header-navigation .search-bar {
@@ -231,32 +264,10 @@ table {
   margin-bottom: 0.75%;
   text-align: center;
 }
-* {
-  box-sizing: border-box;
-}
-button {
-  cursor: pointer;
-}
-input[type="submit"] {
-  cursor: pointer;
-}
-html,
-body {
-  font-family: 'Titillium Web', sans-serif;
-  height: 100%;
-  margin: 0;
-}
-a.url:hover {
-  color: seagreen;
-}
-a.url {
-  color: lightseagreen;
-  text-decoration: none;
-}
 @media (max-width: 500px) {
   .video-container {
     background: #F3EDED;
-    min-height: 100%0;
+    min-height: 100%;
   }
 }
 .video-container .video-wrapper {
@@ -309,7 +320,6 @@ a.url {
 }
 .video-container .search-container .search-box h1 {
   color: #FFFFFF;
-  font-size: 3rem;
   text-align: center;
   padding-bottom: 15px;
 }
@@ -330,12 +340,12 @@ a.url {
 }
 .video-container .search-container .search-box .search-btn input {
   height: 30px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   padding-left: 10px;
 }
 .video-container .search-container .search-box .search-btn input::placeholder {
   color: gray;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   padding: 10px 0 0 10px;
 }
 @media (max-width: 500px) {
@@ -347,11 +357,10 @@ a.url {
   height: 35px;
   margin-top: 15px;
   font-family: 'Cabin', sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .video-container .search-container .search-box p {
   color: #FFFFFF;
-  font-size: 1.8rem;
   text-align: center;
   padding-top: 15px;
 }
@@ -407,7 +416,7 @@ a.url {
 }
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item {
   display: flex;
-  font-size: 1.6rem;
+  font-size: 2.3rem;
   align-content: center;
 }
 @media (max-width: 500px) {
@@ -482,22 +491,18 @@ a.url {
   padding: 20px 0;
 }
 .container h1 {
-  font-size: 12.4rem;
   padding: 10px 0;
 }
 .container h3 {
-  font-size: 2rem;
   padding: 10px 0;
   font-style: italic;
 }
 .container p {
-  font-size: 1.8rem;
   padding: 5px 0;
   line-height: 1.5;
 }
 .container a {
   text-decoration: none;
-  font-size: 1.8rem;
 }
 .container .signup,
 .container .login {
@@ -518,15 +523,12 @@ a.url {
   margin: 0 auto;
   margin-top: 30px;
 }
-.contact-form p {
-  font-size: 2rem;
-}
 .contact-form form {
   display: flex;
   flex-direction: column;
 }
 .contact-form form label {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 10px 0;
 }
 .contact-form form input {
@@ -537,7 +539,7 @@ a.url {
 }
 .contact-form form #submit {
   font-family: 'Cabin', sans-serif;
-  font-size: 1.4rem;
+  font-size: 2rem;
   width: 40%;
   margin: 0 auto;
   margin-top: 10px;
@@ -639,9 +641,6 @@ a.url {
   height: 300px;
   margin: 20px;
 }
-.search-results p {
-  font-size: 1.5rem;
-}
 .search-again {
   max-width: 1000px;
   width: 100%;
@@ -650,13 +649,12 @@ a.url {
   text-align: center;
 }
 .search-again p {
-  font-size: 1.4rem;
   margin: 40px 0;
 }
 .search-again button {
   text-align: center;
   padding: 15px;
-  font-size: 1.3rem;
+  font-size: 2rem;
   background-color: green;
   border-radius: 5px;
   color: #FFFFFF;
