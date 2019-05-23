@@ -7,7 +7,6 @@ const company = document.querySelector('.company');
 const repos = document.querySelector('.repos');
 const url = document.querySelector('.url');
 
-
 const videoContainer = document.querySelector('.video-container');
 const searchResults = document.querySelector('.search-results');
 const searchAgain = document.querySelector('.search-again');
@@ -45,8 +44,6 @@ const showResults = () => {
         url.innerHTML = `URL: <a class="url" href="${results.data.html_url}" target="_blank"><span>${results.data.html_url}</span></a>`;
     });
 };
-
-
 
 searchBtn.addEventListener('click', () => {
     showResults();
