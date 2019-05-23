@@ -126,6 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+:root {
+  font-size: 62.5%;
+}
 .header-navigation {
   width: 100%;
   display: flex;
@@ -320,23 +323,23 @@ a.url {
 }
 .video-container .search-container .search-box .search-btn input {
   height: 30px;
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding-left: 10px;
 }
 .video-container .search-container .search-box .search-btn input::placeholder {
   color: gray;
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding: 10px 0 0 10px;
 }
 .video-container .search-container .search-box .search-btn button {
   height: 35px;
   margin-top: 15px;
   font-family: 'Cabin', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .video-container .search-container .search-box p {
   color: #FFFFFF;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
   padding-top: 15px;
 }
@@ -423,7 +426,7 @@ a.url {
 }
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item :hover {
   color: lightsalmon;
-  font-size: 1.7rem;
+  font-size: 2.4rem;
 }
 @media (max-width: 500px) {
   .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item :hover {
@@ -461,22 +464,22 @@ a.url {
   padding: 20px 0;
 }
 .container h1 {
-  font-size: 1.5rem;
+  font-size: 12.4rem;
   padding: 10px 0;
 }
 .container h3 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding: 10px 0;
   font-style: italic;
 }
 .container p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 5px 0;
   line-height: 1.5;
 }
 .container a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .container .signup,
 .container .login {
