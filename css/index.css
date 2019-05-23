@@ -662,43 +662,36 @@ a.url {
   position: relative;
 }
 .video-container .search-container .popup {
-  display: none;
-  position: fixed;
+  position: relative;
   z-index: 1;
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
+  color: #FFFFFF;
   width: auto;
-  height: 350px;
-  overflow: auto;
-  /* Enable scroll if needed */
 }
-.video-container .search-container .popup p {
-  color: black;
+@media (max-width: 600px) {
+  .video-container .search-container .popup {
+    z-index: 0;
+    display: block;
+  }
 }
-.video-container .search-container .popup-content {
-  background: white;
+.video-container .search-container .popup .help-popup-selector {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  font-size: 1.6rem;
+}
+.video-container .search-container .popup .popup-content {
+  display: block;
   margin: auto;
-  padding: 20px;
+  width: 80%;
+  align-content: center;
+  background: white;
   border: 1px solid #888;
-  width: 75%;
-  height: auto;
 }
-@media (max-width: 725px) {
-}
-@media (max-width: 500px) {
-}
-.video-container .search-container .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-.video-container .search-container .close :hover {
+.video-container .search-container .popup .popup-content p {
   color: #000;
-  text-decoration: none;
-  cursor: pointer;
+}
+.video-container .search-container .popup .hidden-popup {
+  display: none;
 }
 @font-face {
   font-family: 'Cabin';
