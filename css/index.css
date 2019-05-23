@@ -266,6 +266,12 @@ a.url {
   margin-top: 0;
 }
 @media (max-width: 500px) {
+  .video-container .video-wrapper {
+    background-image: url('/images/index-mobile-rs1.jpg');
+    opacity: 0.4;
+  }
+}
+@media (max-width: 500px) {
   .video-container .video-wrapper video {
     display: none;
   }
@@ -310,7 +316,8 @@ a.url {
 @media (max-width: 500px) {
   .video-container .search-container .search-box h1 {
     color: #000;
-    font-size: 2.4rem;
+    font-size: 3.1rem;
+    font-weight: 700;
   }
   .video-container .search-container .search-box h1 span::before {
     content: '\A';
@@ -330,6 +337,11 @@ a.url {
   color: gray;
   font-size: 1.6rem;
   padding: 10px 0 0 10px;
+}
+@media (max-width: 500px) {
+  .video-container .search-container .search-box .search-btn input::placeholder {
+    color: salmon;
+  }
 }
 .video-container .search-container .search-box .search-btn button {
   height: 35px;
@@ -385,6 +397,12 @@ a.url {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .video-container .overlay-footer .index-footer-content .index-footer-content-list :hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
   }
 }
 .video-container .overlay-footer .index-footer-content .index-footer-content-list .index-footer-content-item {
