@@ -3,52 +3,42 @@
 
         // popup container       
         .popup {
-            display: none; 
-            position: fixed; 
-            z-index: 1; 
-            padding-top: 100px; /* Location of the box */
-            left: 0;
-            top: 0;
-            width: auto;
-            height: 350px;
-            overflow: auto; /* Enable scroll if needed */
+          // display:flex;
+          position: relative;
+          z-index: 1;
+          // width: 50px;
+          color: @white;
+          width: auto;
 
-            p {
-                color: black
-            }
-        }
-        
-          // popup content
+          @media @tablet {
+            color: @black;
+          }
+
+          .help-popup-selector {
+            display: flex;
+            justify-content: center;
+            padding-top: 5%;
+            font-size: 1.6rem;
+          }
           .popup-content {
-            background: white;
+            display: block;
             margin: auto;
-            padding: 20px;
+            width: 80%;
+            align-content: center;
+            background: white;
             border: 1px solid #888;
-            width: 75%;
-            height: auto;
-
-            @media @break2 {
-              // width: 100%;
-            }
-            @media @phone {
-              // width: 50px;
+            margin-top: 5%;
+            // @media @break {
+            //   opacity: 1;
+            //   background: blue;
+            // }
+            p {
+              color: @black;
             }
           }
-          
-          // close button
-          .close {
-            color: #aaaaaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        
-            :hover {
-                color: #000;
-                text-decoration: none;
-                cursor: pointer;
-            }
-            
+          .hidden-popup {
+            display: none;
           }
-          
+        }
     }
 }
