@@ -667,10 +667,9 @@ a.url {
   color: #FFFFFF;
   width: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .video-container .search-container .popup {
-    z-index: 0;
-    display: block;
+    color: #000;
   }
 }
 .video-container .search-container .popup .help-popup-selector {
@@ -686,6 +685,7 @@ a.url {
   align-content: center;
   background: white;
   border: 1px solid #888;
+  margin-top: 5%;
 }
 .video-container .search-container .popup .popup-content p {
   color: #000;

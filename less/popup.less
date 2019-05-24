@@ -10,9 +10,8 @@
           color: @white;
           width: auto;
 
-          @media @break {
-            z-index: 0;
-            display: block;
+          @media @tablet {
+            color: @black;
           }
 
           .help-popup-selector {
@@ -28,6 +27,7 @@
             align-content: center;
             background: white;
             border: 1px solid #888;
+            margin-top: 5%;
             // @media @break {
             //   opacity: 1;
             //   background: blue;
@@ -40,55 +40,5 @@
             display: none;
           }
         }
-
-            // display: none; 
-            // position: fixed; 
-            // z-index: 1; 
-            // padding-top: 100px; /* Location of the box */
-            // left: 0;
-            // top: 0;
-            // width: auto;
-            // height: 350px;
-            // overflow: auto; /* Enable scroll if needed */
-
-            // p {
-            //     color: black
-            // }
-        
-        
-          // popup content
-          // .popup-content {
-          //   // background: white;
-          //   // margin: auto;
-          //   // padding: 20px;
-          //   // border: 1px solid #888;
-          //   // width: 75%;
-          //   // height: auto;
-
-          //   // @media @break2 {
-          //   //   // width: 100%;
-          //   // }
-          //   // @media @phone {
-          //   //   // width: 50px;
-          //   // }
-          // }
-          
-          // close button
-          // .close {
-          //   color: #aaaaaa;
-          //   float: right;
-          //   font-size: 28px;
-          //   font-weight: bold;
-        
-          //   :hover {
-          //       color: #000;
-          //       text-decoration: none;
-          //       cursor: pointer;
-          //   }
-            
-          // }
-        // .hidden-popup {
-        //   display: none;
-        // }  
     }
 }
