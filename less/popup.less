@@ -21,6 +21,7 @@
             font-size: 1.6rem;
           }
           .popup-content {
+            // position: absolute;
             display: block;
             margin: auto;
             width: 80%;
@@ -28,12 +29,20 @@
             background: white;
             border: 1px solid #888;
             margin-top: 5%;
-            // @media @break {
-            //   opacity: 1;
-            //   background: blue;
-            // }
+            padding-bottom: 2.5%;
+            margin-bottom: 1000px;
+
+            @media @break {
+              margin-top: 1%;
+              // height: 50px;
+            }
             p {
               color: @black;
+
+              @media @break {
+                font-size: 1.7rem;
+              }
+
             }
           }
           .hidden-popup {

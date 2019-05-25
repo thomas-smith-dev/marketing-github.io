@@ -687,9 +687,21 @@ input[type="submit"] {
   background: white;
   border: 1px solid #888;
   margin-top: 5%;
+  padding-bottom: 2.5%;
+  margin-bottom: 1000px;
+}
+@media (max-width: 600px) {
+  .video-container .search-container .popup .popup-content {
+    margin-top: 1%;
+  }
 }
 .video-container .search-container .popup .popup-content p {
   color: #000;
+}
+@media (max-width: 600px) {
+  .video-container .search-container .popup .popup-content p {
+    font-size: 1.7rem;
+  }
 }
 .video-container .search-container .popup .hidden-popup {
   display: none;
