@@ -692,7 +692,8 @@ input[type="submit"] {
   width: 80%;
   align-content: center;
   background: white;
-  border: 1px solid #888;
+  border: 2px solid #888;
+  border-radius: 4px;
   margin-top: 5%;
   padding-bottom: 2.5%;
   margin-bottom: 1000px;
