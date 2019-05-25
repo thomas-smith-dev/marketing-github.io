@@ -322,6 +322,7 @@ input[type="submit"] {
   color: #FFFFFF;
   text-align: center;
   padding-bottom: 15px;
+  font-size: 4.3rem;
 }
 @media (max-width: 500px) {
   .video-container .search-container .search-box h1 {
@@ -684,7 +685,7 @@ input[type="submit"] {
   display: flex;
   justify-content: center;
   padding-top: 5%;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
 }
 .video-container .search-container .popup .popup-content {
   display: block;
