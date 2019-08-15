@@ -24,5 +24,5 @@ This app was created using HTML, CSS through the LESS preprocessor, ES6 and the 
 [Basic Design Template](https://www.fluidui.com/editor/live/preview/cF9pcUxMdHBYaTdhMmlvZ3kwT1QxVml2aEs1QWVaNkZ2UA==)
 
 
-Less Complier:
-less-watch-compiler less css index.less
+Less Complier: (Terminal Command)
+`less-watch-compiler less css index.less`
