@@ -1,0 +1,23 @@
+{
+  "name": "marketing-github.io",
+  "version": "1.0.0",
+  "description": "[Github User Breakdown]() \\*\\* Domain name expired",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-smith-dev/marketing-github.io.git"
+  },
+  "keywords": [],
+  "author": "Mr Zac Smith <zrs3141592@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas-smith-dev/marketing-github.io/issues"
+  },
+  "homepage": "https://github.com/thomas-smith-dev/marketing-github.io#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
