@@ -1,14 +1,15 @@
+require('dotenv').config()
 
-
-// Import these codes and move to untracked file
-// Once moved delete these keys and create new ones and secure
-const client_id = "Iv1.b7fc4830e136865c";
-const client_secret= "c6ce89b306bfda1fe93152f19cfbf8666c5a1a15";
+// Keys have been replaced
+const client_id = process.env.CLIENT_ID
+const client_secret = process.env.CLIENT_SECRET
 
 const getUsers = async (user) => {
-    const api_call = await fetch(`https://api.github.com/users/${user}?client_id=${client_id}&client_secret${client_secret}`);
+  const api_call = await fetch(
+    `https://api.github.com/users/${user}?client_id=${client_id}&client_secret${client_secret}`
+  )
 
-    const data = await api_call.json();
+  const data = await api_call.json()
 
-    return { data: data };
-};
+  return { data: data }
+}
